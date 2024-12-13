@@ -56,6 +56,10 @@ PRODUCT_SHIPPING_API_LEVEL := 30
 PRODUCT_SOONG_NAMESPACES += \
     $(LOCAL_PATH)
 
+# Updater
+PRODUCT_PACKAGES += \
+    Updater
+
 # WiFi
 PRODUCT_PACKAGES += \
     TargetWifiOverlay
